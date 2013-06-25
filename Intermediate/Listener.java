@@ -30,7 +30,7 @@ public class Listener implements MouseListener {
         icon2 = new ImageIcon(String.valueOf(figure.getType())+"1.png");
     }
     
-    public void mouseClicked(MouseEvent e){ 
+    public void mouseClicked(MouseEvent e){
     
     }
 
