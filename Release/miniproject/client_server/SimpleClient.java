@@ -10,7 +10,7 @@ import miniproject.client_server.exceptions.ServerException;
  */
 abstract public class SimpleClient {
 
-    private LocalServer server;
+    private SimpleServer server;
     private int id;
     private static int initId = 0;
 
