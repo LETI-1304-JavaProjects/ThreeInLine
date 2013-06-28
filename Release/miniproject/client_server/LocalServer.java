@@ -6,7 +6,7 @@ import miniproject.client_server.exceptions.ServerException;
  * Локальный сервер, позволяющий осуществлять обмен
  * сообщениями между двумя клиентами.
  */
-public class LocalServer {
+public class LocalServer implements SimpleServer {
     
     private SimpleClient client1, client2;
     
