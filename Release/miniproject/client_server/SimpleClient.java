@@ -8,7 +8,7 @@ import miniproject.client_server.exceptions.ServerException;
  * друг с другом, используя класс LocalServer.
  * Один объект класса может быть связан лишь с одним сервером.
  */
-abstract public class SimpleClient extends SimpleClient {
+abstract public class SimpleClient {
 
     private LocalServer server;
     private int id;
